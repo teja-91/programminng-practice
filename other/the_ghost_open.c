@@ -9,7 +9,7 @@ int main()
     	cnt=0;
     	scanf("%llu",&N);
     	while(N>0){
-    		if(N%2==0){
+    		if(N%2==0|| N==1){
     			cnt=cnt+(N/2);
     			N=N/2;
     		}
